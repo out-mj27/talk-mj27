@@ -1,0 +1,11 @@
+framework module LJSDK {
+  umbrella header "LJSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LJSDK.Swift {
+  header "LJSDK-Swift.h"
+  requires objc
+}
