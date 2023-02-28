@@ -29,7 +29,7 @@ spec.source       = { :git => "https://github.com/out-mj27/talk-mj27.git", :tag 
 # spec.public_header_files = "HYManager-Swift/HYManagerSDK.framework/Headers/HYManagerSDK.h"
 
 # 开放的头文件，从工程根目录下开始写起
-spec.source_files  = "LJSDK.framework/Headers/*"
+spec.source_files  = "LJSDK.framework/**/*"
 
 # 排除文件
 # spec.exclude_files = "Example"
