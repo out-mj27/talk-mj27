@@ -35,7 +35,7 @@ spec.source_files  = "talk-mj27/LJSDK.framework/Headers/*"
 # spec.exclude_files = "Example"
 
 # SDK的路径 写上库的位置 (自动生成没有这一项，可以不写试一下)
-spec.vendored_frameworks = "talk-mj27/LJSDK.framework"
+#spec.vendored_frameworks = "talk-mj27/LJSDK.framework"
 
 # 依赖系统的一些库，有就写，没有就不要写 
 # framework, frameworks：一个库就是用framework,多个库设置frameworks并使用,分割。
